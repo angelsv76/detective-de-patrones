@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --color-inti-blue: #002F6C;
+  --color-inti-yellow: #FFD700;
+  --color-inti-green: #808000;
+  
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Outfit', sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900;
+  }
+}
+
+.btn-inti {
+  @apply px-6 py-3 rounded-xl font-bold transition-all active:scale-95 disabled:opacity-50 disabled:pointer-events-none;
+}
+
+.btn-inti-primary {
+  @apply bg-inti-blue text-white hover:bg-inti-blue/90 shadow-lg shadow-inti-blue/20;
+}
+
+.btn-inti-secondary {
+  @apply bg-inti-yellow text-inti-blue hover:bg-inti-yellow/90 shadow-lg shadow-inti-yellow/20;
+}
+
+.card-inti {
+  @apply bg-white border border-slate-200 rounded-2xl p-6 shadow-sm;
+}
+
+.input-inti {
+  @apply w-full px-4 py-3 bg-slate-50 border-2 border-slate-200 rounded-xl focus:border-inti-blue focus:outline-none transition-all font-medium;
+}

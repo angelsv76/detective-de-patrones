@@ -1,0 +1,65 @@
+[
+  {
+    "id": "b1",
+    "nivel": "basic",
+    "tipo": "numérico",
+    "patron": "2, 4, 6, 8, ?",
+    "respuesta": "10",
+    "explicacion": "Suma constante de 2",
+    "pista": "Observa cuánto aumenta de un número al siguiente."
+  },
+  {
+    "id": "b2",
+    "nivel": "basic",
+    "tipo": "numérico",
+    "patron": "5, 10, 15, 20, ?",
+    "respuesta": "25",
+    "explicacion": "Suma constante de 5",
+    "pista": "Es como contar de 5 en 5."
+  },
+  {
+    "id": "b3",
+    "nivel": "basic",
+    "tipo": "lógico",
+    "patron": "A, B, A, B, ?",
+    "respuesta": "A",
+    "explicacion": "Alternancia simple entre A y B",
+    "pista": "Mira qué letra sigue después de la B."
+  },
+  {
+    "id": "m1",
+    "nivel": "medium",
+    "tipo": "numérico",
+    "patron": "1, 2, 4, 7, 11, ?",
+    "respuesta": "16",
+    "explicacion": "El incremento aumenta en 1 cada vez (+1, +2, +3, +4, +5)",
+    "pista": "La diferencia entre los números no es siempre la misma, ¡va creciendo!"
+  },
+  {
+    "id": "m2",
+    "nivel": "medium",
+    "tipo": "alterno",
+    "patron": "10, 2, 8, 4, 6, ?",
+    "respuesta": "6",
+    "explicacion": "Dos series alternas: una resta 2 (10, 8, 6) y la otra suma 2 (2, 4, 6)",
+    "pista": "Intenta saltar un número y ver qué pasa con los que quedan."
+  },
+  {
+    "id": "a1",
+    "nivel": "advanced",
+    "tipo": "numérico",
+    "patron": "1, 1, 2, 3, 5, 8, ?",
+    "respuesta": "13",
+    "explicacion": "Serie de Fibonacci: cada número es la suma de los dos anteriores",
+    "pista": "¿Qué pasa si sumas los dos últimos números que ves?"
+  },
+  {
+    "id": "a2",
+    "nivel": "advanced",
+    "tipo": "numérico",
+    "patron": "2, 6, 18, 54, ?",
+    "respuesta": "162",
+    "explicacion": "Multiplicación constante por 3",
+    "pista": "Busca un número por el cual multiplicar el anterior para obtener el siguiente."
+  }
+]
