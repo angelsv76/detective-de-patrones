@@ -1,3 +1,9 @@
+/**
+ * HomePage.tsx
+ * © 2026 Ángel Sánchez — Instituto Nacional Técnico Industrial (INTI)
+ * Todos los derechos reservados.
+ */
+
 import React from 'react';
 import { StudentForm } from '../components/StudentForm';
 import { LevelSelector } from '../components/LevelSelector';

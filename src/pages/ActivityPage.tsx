@@ -1,3 +1,9 @@
+/**
+ * ActivityPage.tsx
+ * © 2026 Ángel Sánchez — Instituto Nacional Técnico Industrial (INTI)
+ * Todos los derechos reservados.
+ */
+
 import React, { useState, useEffect } from 'react';
 import { ExerciseCard } from '../components/ExerciseCard';
 import { Pattern, Student, ExerciseResult, SessionResult } from '../types';

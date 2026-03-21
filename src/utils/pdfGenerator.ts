@@ -1,3 +1,9 @@
+/**
+ * pdfGenerator.ts
+ * © 2026 Ángel Sánchez — Instituto Nacional Técnico Industrial (INTI)
+ * Todos los derechos reservados.
+ */
+
 import { jsPDF } from 'jspdf';
 import autoTable from 'jspdf-autotable';
 
@@ -99,7 +105,9 @@ export const generateReport = (data: ReportData) => {
   doc.setFontSize(10);
   doc.setTextColor(100, 100, 100);
   doc.text('Este documento sirve como evidencia de la actividad realizada en el laboratorio.', 20, finalY);
-  doc.text('INTI - Innovación y Tecnología para el Futuro.', 20, finalY + 5);
+  doc.text('INTI — Innovación y Tecnología para el Futuro.', 20, finalY + 5);
+  doc.setFontSize(8);
+  doc.text('© 2026 Ángel Sánchez — Instituto Nacional Técnico Industrial (INTI). Todos los derechos reservados.', 20, finalY + 12);
 
   // Filename
   const now = new Date();

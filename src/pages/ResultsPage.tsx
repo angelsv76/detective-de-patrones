@@ -1,3 +1,9 @@
+/**
+ * ResultsPage.tsx
+ * © 2026 Ángel Sánchez — Instituto Nacional Técnico Industrial (INTI)
+ * Todos los derechos reservados.
+ */
+
 import React from 'react';
 import { Trophy, FileText, Share2, RefreshCw, CheckCircle2, XCircle } from 'lucide-react';
 import { motion } from 'motion/react';

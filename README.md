@@ -1,20 +1,30 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Detective de Patrones: El Enigma
 
-# Run and deploy your AI Studio app
+Aplicación educativa interactiva para estudiantes de bachillerato del **Instituto Nacional Técnico Industrial (INTI)**.  
+Diseñada para desarrollar el **Pensamiento Computacional** mediante la resolución de acertijos de patrones.
 
-This contains everything you need to run your app locally.
+## Características
 
-View your app in AI Studio: https://ai.studio/apps/9bb9bf82-0ee2-421c-a0ff-4be62ea023d1
+- 3 niveles de dificultad: Básico, Medio y Avanzado
+- Banco de patrones editable desde el Panel Docente
+- Generación automática de reportes PDF con evidencia por estudiante
+- Sistema de puntuación y retroalimentación inmediata
 
-## Run Locally
+## Uso Local
 
-**Prerequisites:**  Node.js
+**Requisitos:** Node.js
 
+1. Instalar dependencias:
+   ```
+   npm install
+   ```
+2. Ejecutar la app:
+   ```
+   npm run dev
+   ```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Derechos de Autor
+
+© 2026 Ángel Sánchez — Instituto Nacional Técnico Industrial (INTI)  
+Todos los derechos reservados.  
+Prohibida su reproducción total o parcial sin autorización expresa del autor.

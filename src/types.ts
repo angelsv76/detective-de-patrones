@@ -1,3 +1,9 @@
+/**
+ * types.ts
+ * © 2026 Ángel Sánchez — Instituto Nacional Técnico Industrial (INTI)
+ * Todos los derechos reservados.
+ */
+
 export interface Pattern {
   id: string;
   nivel: 'basic' | 'medium' | 'advanced';

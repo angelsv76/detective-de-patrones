@@ -1,0 +1,18 @@
+Copyright (c) 2026 Ángel Sánchez
+Instituto Nacional Técnico Industrial (INTI)
+
+Todos los derechos reservados.
+
+Este software y su documentación asociada son propiedad exclusiva de Ángel Sánchez
+y del Instituto Nacional Técnico Industrial (INTI).
+
+Queda estrictamente prohibido, sin autorización previa y por escrito del autor:
+- Reproducir total o parcialmente este software.
+- Distribuirlo bajo cualquier forma o medio.
+- Modificarlo, adaptarlo o crear obras derivadas.
+- Utilizarlo con fines comerciales.
+
+El uso de este software está autorizado únicamente para actividades educativas
+dentro del Instituto Nacional Técnico Industrial (INTI).
+
+Para solicitar permisos adicionales, contactar al autor.

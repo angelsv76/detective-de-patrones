@@ -1,3 +1,9 @@
+/**
+ * LevelSelector.tsx
+ * © 2026 Ángel Sánchez — Instituto Nacional Técnico Industrial (INTI)
+ * Todos los derechos reservados.
+ */
+
 import React from 'react';
 import { Star, BrainCircuit, Trophy, ChevronRight } from 'lucide-react';
 import { motion } from 'motion/react';

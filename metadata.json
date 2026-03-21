@@ -1,5 +1,9 @@
 {
   "name": "Detective de Patrones: El Enigma",
-  "description": "Una aplicación interactiva para que estudiantes de bachillerato resuelvan acertijos de patrones y envíen su evidencia.",
+  "description": "Una aplicación educativa interactiva para que estudiantes de bachillerato del INTI resuelvan acertijos de patrones y desarrollen el pensamiento computacional.",
+  "author": "Ángel Sánchez",
+  "institution": "Instituto Nacional Técnico Industrial (INTI)",
+  "version": "2.0.0",
+  "year": "2026",
   "requestFramePermissions": []
 }

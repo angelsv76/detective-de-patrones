@@ -1,3 +1,9 @@
+/**
+ * patternGenerator.ts
+ * © 2026 Ángel Sánchez — Instituto Nacional Técnico Industrial (INTI)
+ * Todos los derechos reservados.
+ */
+
 import { Pattern } from '../types';
 
 export const generatePattern = (nivel: 'basic' | 'medium' | 'advanced'): Pattern => {

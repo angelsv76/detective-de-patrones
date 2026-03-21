@@ -1,3 +1,9 @@
+/**
+ * HeaderFooter.tsx
+ * © 2026 Ángel Sánchez — Instituto Nacional Técnico Industrial (INTI)
+ * Todos los derechos reservados.
+ */
+
 import { Search, ShieldCheck, User } from 'lucide-react';
 import { motion } from 'motion/react';
 
@@ -63,7 +69,8 @@ export const Footer = () => {
           
           <div className="flex flex-col items-center md:items-end gap-2">
             <p className="text-xs font-bold text-slate-400">© 2026 Instituto Nacional Técnico Industrial</p>
-            <div className="flex gap-4">
+            <p className="text-[10px] text-slate-500">Desarrollado por Ángel Sánchez</p>
+            <div className="flex gap-4 mt-1">
               <div className="w-2 h-2 rounded-full bg-inti-blue" />
               <div className="w-2 h-2 rounded-full bg-inti-yellow" />
               <div className="w-2 h-2 rounded-full bg-inti-green" />

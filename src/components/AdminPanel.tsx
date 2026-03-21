@@ -1,3 +1,9 @@
+/**
+ * AdminPanel.tsx
+ * © 2026 Ángel Sánchez — Instituto Nacional Técnico Industrial (INTI)
+ * Todos los derechos reservados.
+ */
+
 import React, { useState, useEffect } from 'react';
 import { ShieldCheck, Plus, Trash2, Edit2, Download, Upload, Save, X, Search, FileJson } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';

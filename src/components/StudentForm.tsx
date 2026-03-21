@@ -1,3 +1,9 @@
+/**
+ * StudentForm.tsx
+ * © 2026 Ángel Sánchez — Instituto Nacional Técnico Industrial (INTI)
+ * Todos los derechos reservados.
+ */
+
 import React, { useState } from 'react';
 import { User, GraduationCap, ShieldCheck, ChevronRight } from 'lucide-react';
 import { motion } from 'motion/react';

@@ -1,3 +1,9 @@
+/**
+ * ExerciseCard.tsx
+ * © 2026 Ángel Sánchez — Instituto Nacional Técnico Industrial (INTI)
+ * Todos los derechos reservados.
+ */
+
 import React, { useState } from 'react';
 import { Search, BrainCircuit, CheckCircle2, AlertCircle, ChevronRight, Lightbulb } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
